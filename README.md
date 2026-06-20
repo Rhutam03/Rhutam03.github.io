@@ -1,4 +1,4 @@
-# Rhutam Mahajan
+# Personal Website
 
 This repository is my personal website, live at rhutammahajan.com. It is a small static site built with React and Vite and served through GitHub Pages on a custom domain. What lives here is the production build itself, meaning the HTML entry point and the bundled assets, along with my resume, the favicon, and the CNAME file that maps the domain to GitHub.
 

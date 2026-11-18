@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#131210"/>
+  <rect x="72" y="72" width="8" height="486" rx="4" fill="#d9794a"/>
+  <text x="120" y="144" fill="#d9794a" font-family="Arial, sans-serif" font-size="23" letter-spacing="3">DATA SCIENCE &amp; ENGINEERING</text>
+  <text x="116" y="270" fill="#ece7db" font-family="Georgia, serif" font-size="82">Rhutam Mahajan</text>
+  <text x="120" y="338" fill="#c7c0b3" font-family="Arial, sans-serif" font-size="29">M.S. Data Science · University of Maryland</text>
+  <text x="120" y="391" fill="#ece7db" font-family="Arial, sans-serif" font-size="29">Graduating May 2027</text>
+  <line x1="120" y1="442" x2="1080" y2="442" stroke="#494239"/>
+  <text x="120" y="497" fill="#c7c0b3" font-family="Arial, sans-serif" font-size="25">SQL · Analytics · Data Pipelines · Machine Learning</text>
+  <text x="120" y="553" fill="#d9794a" font-family="Arial, sans-serif" font-size="24">rhutammahajan.com</text>
+</svg>

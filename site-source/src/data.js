@@ -27,6 +27,18 @@ export const projects = [
     links: [{ label: 'Notebook and code', href: 'https://github.com/Rhutam03/Spark-and-Graph-Database' }],
   },
   {
+    when: 'Geospatial machine learning',
+    context: 'Personal project · Saved experiment artifacts',
+    title: 'Geolife Trajectory Clustering',
+    bullets: [
+      'Prepared GPS trajectories for clustering; saved processing artifacts record 28,883 segments across 181 users.',
+      'Compared K-Means on GRU autoencoder embeddings with a DTW K-Means baseline, including matched-sample comparisons.',
+      'Examined cluster collapse, assignment confidence, and stability to distinguish separation by trip scale from useful movement patterns.',
+    ],
+    kit: 'Python · PyTorch · GRU Autoencoder · scikit-learn · tslearn · DTW',
+    links: [],
+  },
+  {
     when: 'Dec 2025–Mar 2026',
     context: 'Personal project',
     title: 'Multimodal Medical Triage Prototype',
@@ -54,6 +66,18 @@ export const projects = [
     ],
   },
   {
+    when: 'Apr 2026 · Extended Nov 2026',
+    context: 'Educational project · Course-based extension',
+    title: 'Career Agent: Retrieval and Evaluation',
+    bullets: [
+      'Implemented a profile assistant with ChromaDB retrieval, FastMCP tools, and an answer, evaluate, and revise workflow.',
+      'Built OpenAI Agents SDK and LangGraph runtimes with SQLite memory and conversation checkpoints.',
+      'Recent extension: added an offline SQLite Evidence Mapper with versioned sources, exact citations, explicit requirement checks, and 17 passing unit tests.',
+    ],
+    kit: 'Python · OpenAI Agents SDK · FastMCP · ChromaDB · LangGraph · SQLite',
+    links: [],
+  },
+  {
     when: 'Live website',
     context: 'Additional engineering project',
     title: 'Abhyut Engineering Website',
@@ -63,17 +87,6 @@ export const projects = [
     ],
     kit: 'Astro · React · TypeScript · Zod',
     links: [{ label: 'Visit website', href: 'https://www.abhyut.com/' }],
-  },
-  {
-    when: 'Apr 2026',
-    context: 'Personal project',
-    title: 'Agent Workflows with MCP and Retrieval',
-    bullets: [
-      'Explored agent workflows that combine tool calls, retrieval, memory, and evaluator feedback through a custom FastMCP server.',
-      'Built a retrieval-based chatbot using ChromaDB, OpenAI generation, and Gemini-based evaluation.',
-    ],
-    kit: 'OpenAI Agents SDK · MCP / FastMCP · LangChain · LangGraph · ChromaDB',
-    links: [],
   },
 ]
 

@@ -7,7 +7,7 @@ const NAV = [
   ['experience', 'Experience'],
   ['skills', 'Skills'],
   ['research', 'Publications'],
-  ['resume', 'Resume & CV'],
+  ['resume', 'Resumes & CV'],
 ]
 const IDS = NAV.map(([id]) => id)
 

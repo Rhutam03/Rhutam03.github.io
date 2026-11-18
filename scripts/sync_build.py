@@ -8,6 +8,9 @@ build = root / "site-source" / "dist"
 required = [
     "index.html", "CNAME", "portfolio-preview.png",
     "Rhutam_Mahajan_one_page_resume.pdf", "academic_cv.pdf",
+    "Rhutam_Mahajan_Data_Science_Resume.pdf",
+    "Rhutam_Mahajan_Data_Engineering_Resume.pdf",
+    "Rhutam_Mahajan_AI_ML_Engineering_Resume.pdf",
 ]
 for name in required:
     path = build / name

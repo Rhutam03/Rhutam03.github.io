@@ -15,7 +15,7 @@ export default function About() {
           </p>
         </div>
         <p className="go hero-actions">
-          <a className="btn" href="/Rhutam_Mahajan_one_page_resume.pdf" target="_blank" rel="noopener noreferrer">View resume</a>
+          <a className="btn" href="/Rhutam_Mahajan_Data_Science_Resume.pdf" target="_blank" rel="noopener noreferrer">View data science resume</a>
           <a href="/academic_cv.pdf" target="_blank" rel="noopener noreferrer">Academic CV</a>
           <a href="mailto:rhutammahajan@gmail.com">Get in touch</a>
         </p>

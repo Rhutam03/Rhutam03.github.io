@@ -19,7 +19,7 @@ From `site-source/`, run `npm ci` and then `npm run dev`.
 ## Build and publish
 
 1. From `site-source/`, run `npm ci` followed by `npm run build`.
-2. Run `npm run preview` to inspect the production build, including both PDF downloads.
+2. Run `npm run preview` to inspect the production build, including all four document cards.
 3. From the repository root, run `python3 scripts/sync_build.py`.
 4. Review the changes and push the intended commit to the branch configured for GitHub Pages.
 
@@ -27,9 +27,11 @@ The custom domain is served at the root, so Vite uses `base: '/'`. Keep the CNAM
 
 ## Documents
 
-- `Rhutam_Mahajan_one_page_resume.pdf`: one-page resume for industry roles.
+- `Rhutam_Mahajan_Data_Science_Resume.pdf`: one-page resume emphasizing modeling, evaluation, and analysis.
+- `Rhutam_Mahajan_Data_Engineering_Resume.pdf`: one-page resume emphasizing SQL, Spark, data validation, and workflows.
+- `Rhutam_Mahajan_AI_ML_Engineering_Resume.pdf`: one-page resume emphasizing retrieval, agent workflows, PyTorch, and model-serving applications.
 - `academic_cv.pdf`: two-page academic CV for research opportunities.
-- `Rhutam-resume.pdf`: compatibility copy of the current resume for earlier links.
+- `Rhutam_Mahajan_one_page_resume.pdf` and `Rhutam-resume.pdf`: compatibility copies of the Data Science resume for earlier links.
 
 When replacing a PDF, update the copy under `site-source/public/`, rebuild, and sync the build. Keep the content consistent with the linked project code and the evaluation scope.
 
